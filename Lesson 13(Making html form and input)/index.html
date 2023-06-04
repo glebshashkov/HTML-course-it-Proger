@@ -1,0 +1,28 @@
+<!-- Создание форм и полей для ввода-->
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Lesson 13</title>
+  </head>
+  <body>
+    <form action="" method=""><!--При помощи атрибута action мы укажем ту страницу на которой будет происходить обработка всеё этой формы-->
+        <!--При помощи этого атрибута мы можем указать метод передачи данных в форму(GET/POST)-->
+        <lable for="user_name">Введите имя</lable><!-- lable это поле для ввода инфы-->
+         <input type="text" placeholder="Подсказка: Введите ваше имя" value="" maxlength="10"
+         name="user_name" id="user"><!--value уже сразу введён текст, maxlengtth кол-во допустимых вводимых символов, hidden-скрыто, disabled - ничего нельзя ввести-->
+
+        <!--input поля-->
+        <input type="password" placeholder="Пароль"><br>
+        <input type="color"><br>
+        <input type="date"><br>
+        <input type="time"><br>
+        <input type="checkbox"><br>
+        <input type="radio" name="state"><br><!--тогда выбирается либюо 1 либо длругое-->
+        <input type="radio" name="state"><br>
+        <input type="button"><br><!--button юез перезагружки страницы-->
+        <input type="submit" vlue="Отправить" ><!--с перезагрузкой и отправкой на сервер джанных-->
+        <input type="reset" value="Очистка"><!--очистка всех данных со всех полей-->
+        
+    </form>
+  </body>
+</html>
